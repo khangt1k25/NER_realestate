@@ -1,0 +1,13 @@
+{
+    "name": "query",
+    "entities": [
+        "Aggregator:Aggregator",
+        "City:City",
+        "District:District",
+        "Object:Object",
+        "Quarter:Quarter",
+        "Rooms:Rooms",
+        "Type:Type",
+        "Year:Year"
+    ]
+}

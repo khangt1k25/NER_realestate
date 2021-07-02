@@ -1,0 +1,1383 @@
+{
+    "utterances": [
+        {
+            "text": "Display maximum house's price with 1 rooms in CanTho city, in quarter 4, 2019",
+            "entities": [
+                {
+                    "entity": "Object:Object",
+                    "start": 24,
+                    "end": 29,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 35,
+                    "end": 36,
+                    "body": "1",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 46,
+                    "end": 52,
+                    "body": "CanTho",
+                    "entities": []
+                },
+                {
+                    "entity": "Quarter:Quarter",
+                    "start": 70,
+                    "end": 71,
+                    "body": "4",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 73,
+                    "end": 77,
+                    "body": "2019",
+                    "entities": []
+                },
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 8,
+                    "end": 15,
+                    "body": "maximum",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the average house price  in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Object:Object",
+                    "start": 26,
+                    "end": 31,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 36,
+                    "end": 41,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "average",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the avg apartment's price in HaNoi city, 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 15,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 28,
+                    "end": 33,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 37,
+                    "end": 42,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 49,
+                    "end": 53,
+                    "body": "2021",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 16,
+                    "end": 25,
+                    "body": "apartment",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the avg house price in HoangMai district, HaNoi City in quarter 3, 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 15,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 22,
+                    "end": 27,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 31,
+                    "end": 39,
+                    "body": "HoangMai",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 50,
+                    "end": 55,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 75,
+                    "end": 79,
+                    "body": "2021",
+                    "entities": []
+                },
+                {
+                    "entity": "Quarter:Quarter",
+                    "start": 72,
+                    "end": 73,
+                    "body": "3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the highest house apartment price with 2 rooms in LienChieu district, DaNang City in quarter 2, 2020",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 26,
+                    "end": 35,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 36,
+                    "end": 41,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 58,
+                    "end": 67,
+                    "body": "LienChieu",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 78,
+                    "end": 84,
+                    "body": "DaNang",
+                    "entities": []
+                },
+                {
+                    "entity": "Quarter:Quarter",
+                    "start": 101,
+                    "end": 102,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 104,
+                    "end": 108,
+                    "body": "2020",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 47,
+                    "end": 48,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the highest house apartment with 2 rooms in LienChieu district, DaNang City in quarter 2, 2020",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 26,
+                    "end": 35,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 41,
+                    "end": 42,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 52,
+                    "end": 61,
+                    "body": "LienChieu",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 72,
+                    "end": 78,
+                    "body": "DaNang",
+                    "entities": []
+                },
+                {
+                    "entity": "Quarter:Quarter",
+                    "start": 95,
+                    "end": 96,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 98,
+                    "end": 102,
+                    "body": "2020",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the highest house price  in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 26,
+                    "end": 31,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 36,
+                    "end": 41,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the highest house price with 2 rooms in LienChieu district, DaNang City in quarter 2, 2020",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 26,
+                    "end": 31,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 48,
+                    "end": 57,
+                    "body": "LienChieu",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 68,
+                    "end": 74,
+                    "body": "DaNang",
+                    "entities": []
+                },
+                {
+                    "entity": "Quarter:Quarter",
+                    "start": 91,
+                    "end": 92,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 94,
+                    "end": 98,
+                    "body": "2020",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Display the lowest house price  in HoChiMinh city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 18,
+                    "body": "lowest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 25,
+                    "end": 30,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 35,
+                    "end": 44,
+                    "body": "HoChiMinh",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "How many apartment with 2 rooms in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Type:Type",
+                    "start": 9,
+                    "end": 18,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 24,
+                    "end": 25,
+                    "body": "2",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 35,
+                    "end": 40,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 4,
+                    "end": 8,
+                    "body": "many",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "How many houseland in HoChiMinh city?",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 4,
+                    "end": 8,
+                    "body": "many",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 22,
+                    "end": 31,
+                    "body": "HoChiMinh",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 9,
+                    "end": 18,
+                    "body": "houseland",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "I want to display the avg price in DaNang city with 2 rooms house",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 22,
+                    "end": 25,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 26,
+                    "end": 31,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 35,
+                    "end": 41,
+                    "body": "DaNang",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 52,
+                    "end": 53,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the average house price  in DaNang city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "average",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 23,
+                    "end": 28,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 33,
+                    "end": 39,
+                    "body": "DaNang",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the average house price in LongBien district, HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "average",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 23,
+                    "end": 28,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 51,
+                    "end": 56,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 32,
+                    "end": 40,
+                    "body": "LongBien",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the average price of 2 rooms-house in HoChiMinh City in 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "average",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 17,
+                    "end": 22,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 43,
+                    "end": 52,
+                    "body": "HoChiMinh",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 61,
+                    "end": 65,
+                    "body": "2021",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 26,
+                    "end": 27,
+                    "body": "2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the highest apartment's price  in DaNang city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 17,
+                    "end": 26,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 29,
+                    "end": 34,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 39,
+                    "end": 45,
+                    "body": "DaNang",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the highest flat's price  in HoChiMinh city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 24,
+                    "end": 29,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 34,
+                    "end": 43,
+                    "body": "HoChiMinh",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 17,
+                    "end": 21,
+                    "body": "flat",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the highest house price  in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 23,
+                    "end": 28,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 33,
+                    "end": 38,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the highest landhouse's price  in HoChiMinh city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 29,
+                    "end": 34,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 39,
+                    "end": 48,
+                    "body": "HoChiMinh",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 17,
+                    "end": 26,
+                    "body": "landhouse",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the highest price of 3 rooms house in DongDa district, HaNoi city in 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "highest",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 17,
+                    "end": 22,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 43,
+                    "end": 49,
+                    "body": "DongDa",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 60,
+                    "end": 65,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 74,
+                    "end": 78,
+                    "body": "2021",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 26,
+                    "end": 27,
+                    "body": "3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the max house's price in TayHo district, HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "max",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 21,
+                    "end": 26,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 46,
+                    "end": 51,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 30,
+                    "end": 35,
+                    "body": "TayHo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Show the mininum house's price in Quan1 district, HoChiMinh city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "mininum",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 25,
+                    "end": 30,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 50,
+                    "end": 59,
+                    "body": "HoChiMinh",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 34,
+                    "end": 39,
+                    "body": "Quan1",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Tell me the average price house in HoanKiem district, HaNoi city, 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "average",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 20,
+                    "end": 25,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 35,
+                    "end": 43,
+                    "body": "HoanKiem",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 54,
+                    "end": 59,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 66,
+                    "end": 70,
+                    "body": "2021",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Tell me the avg price house in CauGiay district, HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 15,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 16,
+                    "end": 21,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 31,
+                    "end": 38,
+                    "body": "CauGiay",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 49,
+                    "end": 54,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Tell me the avg price house in CauGiay district, HaNoi city, 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 15,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 16,
+                    "end": 21,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "District:District",
+                    "start": 31,
+                    "end": 38,
+                    "body": "CauGiay",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 49,
+                    "end": 54,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 61,
+                    "end": 65,
+                    "body": "2021",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "Tell the avg price housing in HaTinh city, 2021",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 13,
+                    "end": 18,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 30,
+                    "end": 36,
+                    "body": "HaTinh",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 43,
+                    "end": 47,
+                    "body": "2021",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "show the avg house's price in BinhDuong, 2020 with 4 rooms",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 21,
+                    "end": 26,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 41,
+                    "end": 45,
+                    "body": "2020",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 51,
+                    "end": 52,
+                    "body": "4",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 30,
+                    "end": 39,
+                    "body": "BinhDuong",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "show the avg land house's price in BinhDuong, 2020 with 4 rooms",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 13,
+                    "end": 23,
+                    "body": "land house",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 26,
+                    "end": 31,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 35,
+                    "end": 44,
+                    "body": "BinhDuong",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 46,
+                    "end": 50,
+                    "body": "2020",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 56,
+                    "end": 57,
+                    "body": "4",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "show the maximum apartment price in HaiPhong city, 2019 with 1 rooms",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "maximum",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 17,
+                    "end": 26,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 27,
+                    "end": 32,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 36,
+                    "end": 44,
+                    "body": "HaiPhong",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 51,
+                    "end": 55,
+                    "body": "2019",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 61,
+                    "end": 62,
+                    "body": "1",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "show the maximum land house's price in QuangNinh, 2020 with 3 rooms",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 16,
+                    "body": "maximum",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 17,
+                    "end": 27,
+                    "body": "land house",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 30,
+                    "end": 35,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 39,
+                    "end": 48,
+                    "body": "QuangNinh",
+                    "entities": []
+                },
+                {
+                    "entity": "Year:Year",
+                    "start": 50,
+                    "end": 54,
+                    "body": "2020",
+                    "entities": []
+                },
+                {
+                    "entity": "Rooms:Rooms",
+                    "start": 60,
+                    "end": 61,
+                    "body": "3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "tell me the average price in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 19,
+                    "body": "average",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 20,
+                    "end": 25,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 29,
+                    "end": 34,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "tell me the avg price in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 15,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 16,
+                    "end": 21,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 25,
+                    "end": 30,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "tell me the max price of apartment in HaNoi, 2021",
+            "entities": [
+                {
+                    "entity": "Year:Year",
+                    "start": 45,
+                    "end": 49,
+                    "body": "2021",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 38,
+                    "end": 43,
+                    "body": "HaNoi",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 25,
+                    "end": 34,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 16,
+                    "end": 21,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 12,
+                    "end": 15,
+                    "body": "max",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "tell the avg price in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 13,
+                    "end": 18,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 22,
+                    "end": 27,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "tell the avg price in HoChiMinh city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "avg",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 13,
+                    "end": 18,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 22,
+                    "end": 31,
+                    "body": "HoChiMinh",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        },
+        {
+            "text": "tell the max price apartment in HaNoi city",
+            "entities": [
+                {
+                    "entity": "Aggregator:Aggregator",
+                    "start": 9,
+                    "end": 12,
+                    "body": "max",
+                    "entities": []
+                },
+                {
+                    "entity": "Object:Object",
+                    "start": 13,
+                    "end": 18,
+                    "body": "price",
+                    "entities": []
+                },
+                {
+                    "entity": "Type:Type",
+                    "start": 19,
+                    "end": 28,
+                    "body": "apartment",
+                    "entities": []
+                },
+                {
+                    "entity": "City:City",
+                    "start": 32,
+                    "end": 37,
+                    "body": "HaNoi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "query"
+        }
+    ]
+}

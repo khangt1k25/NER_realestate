@@ -1,0 +1,28 @@
+{
+    "name": "Type",
+    "roles": [
+        "Type"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "apartment",
+            "synonyms": [
+                "apartment",
+                "flat"
+            ]
+        },
+        {
+            "keyword": "landhouse",
+            "synonyms": [
+                "house land",
+                "houseland",
+                "land house",
+                "landhouse"
+            ]
+        }
+    ]
+}

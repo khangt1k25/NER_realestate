@@ -1,0 +1,60 @@
+{
+    "name": "District",
+    "roles": [
+        "District"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "CauGiay",
+            "synonyms": [
+                "caugiay"
+            ]
+        },
+        {
+            "keyword": "DongDa",
+            "synonyms": [
+                "dongda"
+            ]
+        },
+        {
+            "keyword": "HoanKiem",
+            "synonyms": [
+                "hoankiem"
+            ]
+        },
+        {
+            "keyword": "HoangMai",
+            "synonyms": [
+                "hoangmai"
+            ]
+        },
+        {
+            "keyword": "LienChieu",
+            "synonyms": [
+                "lienchieu"
+            ]
+        },
+        {
+            "keyword": "LongBien",
+            "synonyms": [
+                "longbien"
+            ]
+        },
+        {
+            "keyword": "Quan1",
+            "synonyms": [
+                "quan1"
+            ]
+        },
+        {
+            "keyword": "TayHo",
+            "synonyms": [
+                "tayho"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Object",
+    "roles": [
+        "Object"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "price",
+            "synonyms": [
+                "cost",
+                "money",
+                "price",
+                "value"
+            ]
+        }
+    ]
+}
