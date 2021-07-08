@@ -1,10 +1,12 @@
 import requests
 from wit import Wit
 import json
+import os
+
+token = os.getenv('WIT_ACCESS_TOKEN')
 
 
-WIT_ACCESS_TOKEN = 'TJMI4BYIZZVBCTVXXU45GPUBL2MZZAWN'
-bot = Wit(access_token=WIT_ACCESS_TOKEN)
+bot = Wit(access_token=token)
 
 
 
@@ -12,7 +14,6 @@ bot = Wit(access_token=WIT_ACCESS_TOKEN)
 def clustering(message_text):
     try:
         response = bot.message(msg=message_text)
-        print(response)
         intent = response['intents'][0]
         if intent['confidence'] > 0.1:
             cluster_name = intent['name']
@@ -28,35 +29,34 @@ def clustering(message_text):
 
 def send_request(result):
     
+    conds = []
+    for key, val in result.items():
+        if key in ("Object", "Aggregator"):
+            continue
+        conds.append({"match": {key: val}});
+
     body = {
         "query": {
             "bool": {
-            "must": [
-                { "match": {"province": "TPHCM" } },
-                { "match": {"district": "Quận Tân Bình"}},
-                { "match": {"bedroom": 10}},
-                { "match": {"type": "Bán Nhà Mặt Phố "}}    
-            ]
+            "must": conds
             }
         },
         "size": 0,
         "aggs": {
             "aggregator": {
-            "avg": {
+            str(result['Aggregator']): {
                 "field": "total_price"
             }
             }
         }
     }
-    print(body)
-    # response = elastic_client.search(index='real-estate', body=body, size=10000)
-    # elastic_docs = response['hits']['hits']
+    return body
 
-    # aggregation_value = response['aggregations']['avg']['value']
 
 
 message = input("Enter NL: ")
 
 x = clustering(message)
-# send_request(x)
 print(x)
+y = send_request(x)
+print(y)

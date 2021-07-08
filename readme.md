@@ -1,3 +1,9 @@
-# Requirements
+# Run
+```
+pip install -r requirements.txt
 
-pip install wit
+source env.env 
+
+python main.py
+
+```
