@@ -1,7 +1,0 @@
-{
-    "version": 20200513,
-    "zip-command": "zip text2sql.zip text2sql\/app.json text2sql\/entities\/*.json text2sql\/intents\/*.json text2sql\/traits\/*.json text2sql\/utterances\/*.json",
-    "name": "text2sql",
-    "lang": "en",
-    "timezone": "Asia\/Ho_Chi_Minh"
-}
