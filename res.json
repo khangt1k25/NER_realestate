@@ -1,0 +1,55 @@
+{
+    "text": "draw house price chart in 2021, according to city",
+    "intents": [
+        {
+            "id": "353178916316175",
+            "name": "groupby",
+            "confidence": 0.9953
+        }
+    ],
+    "entities": {
+        "Object:groupby": [
+            {
+                "id": "4068291899952567",
+                "name": "Object",
+                "role": "groupby",
+                "start": 45,
+                "end": 49,
+                "body": "city",
+                "confidence": 0.8925,
+                "entities": [],
+                "value": "normed_province",
+                "type": "value"
+            }
+        ],
+        "start_date:Year": [
+            {
+                "id": "986238015481690",
+                "name": "start_date",
+                "role": "Year",
+                "start": 26,
+                "end": 30,
+                "body": "2021",
+                "confidence": 0.9573,
+                "entities": [],
+                "value": "2021",
+                "type": "value"
+            }
+        ],
+        "Object:Object": [
+            {
+                "id": "1008788833198973",
+                "name": "Object",
+                "role": "Object",
+                "start": 11,
+                "end": 16,
+                "body": "price",
+                "confidence": 0.9939,
+                "entities": [],
+                "value": "price",
+                "type": "value"
+            }
+        ]
+    },
+    "traits": {}
+}
