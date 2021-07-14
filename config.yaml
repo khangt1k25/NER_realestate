@@ -1,0 +1,4 @@
+AppConfig:
+  ELASTICSEARCH_HOST: https://search-dataflame-tis2fse6rp4bpanibihqdn6rua.ap-southeast-1.es.amazonaws.com/
+  ELASTICSEARCH_REGION: ap-southeast-1
+  ELASTICSEARCH_HOST_CANONICAL: search-dataflame-tis2fse6rp4bpanibihqdn6rua.ap-southeast-1.es.amazonaws.com

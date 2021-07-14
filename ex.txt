@@ -1,1 +1,0 @@
-{"query": {"bool": {"must": [{"match": {"start_date": "2021"}}, {"match": {"normed_province": "Hà Nội"}}, {"match": {"normed_district": "Hoàng Mai"}}]}}, "size": 0, "aggs": {"aggregator": {"max": {"field": "total_price"}}}}
