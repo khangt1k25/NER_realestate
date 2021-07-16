@@ -2,7 +2,7 @@ from wit import Wit
 import json
 import os
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 
 token = os.getenv('WIT_ACCESS_TOKEN')
@@ -119,6 +119,12 @@ def processing(response, cluster):
         df = convert_response_to_df(response)
         obj = cluster['Object']
         groupby = cluster['groupby']
-        return df.groupby(groupby)[obj].value_counts()
+        x = df.groupby([groupby], as_index=False).mean()
+        x_a = list(x[groupby])
+        y_a = list(x[obj])
+        plt.figure(figsize=(25, 25))
+        plt.plot(x_a, y_a)
+        
+        return df, obj, groupby
         
         
