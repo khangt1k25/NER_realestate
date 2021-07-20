@@ -1,0 +1,26 @@
+[
+    {"text": "Display the highest house price  in HaNoi city","sql":"SELECT 'max(price)' FROM 'house' WHERE 'city' LIKE 'HaNoi';"},
+    {"text": "Display the lowest house price  in HoChiMinh city","sql":"SELECT 'min(price)' FROM 'house' WHERE 'city' LIKE 'HoChiMinh';"},
+    {"text": "Display the average house price  in HaNoi city","sql":"SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'HaNoi';"},
+    {"text": "Show the highest house price  in HaNoi city","sql":"SELECT max(price) FROM 'house' WHERE 'city' LIKE 'HaNoi';"},
+    {"text": "Show the average house price  in DaNang city","sql":"SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'DaNang';"},
+    {"text": "Show the average house price in LongBien district, HaNoi city", "sql":"SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'HaNoi' AND 'district' LIKE 'LongBien';"},
+    {"text": "Show the max house's price in TayHo district, HaNoi city", "sql":"SELECT max(price) FROM 'house' WHERE 'city' LIKE 'HaNoi' AND 'district' LIKE 'LongBien';"},
+    {"text": "Show the mininum house's price in Quan1 district, HoChiMinh city", "sql":"SELECT min(price) FROM 'house' WHERE 'city' LIKE 'HaNoi' AND 'district' LIKE 'LongBien';"},
+    {"text": "Display the avg house price in HoangMai district, HaNoi City in quarter 3, 2021", "sql":"SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'HaNoi' AND 'district' LIKE 'HoangMai' AND 'quarter' == 3 AND 'year' == 2021 ;"},
+    {"text": "Display the highest house price with 2 rooms in LienChieu district, DaNang City in quarter 2, 2020", "sql":"SELECT max(price) FROM 'house' WHERE 'city' LIKE 'DaNang' AND 'district' LIKE 'LienChieu' AND 'quarter' == 2 AND 'year'== 2020  AND 'rooms' == 2 ;"},
+    {"text": "Show the average price of 2 rooms-house in HoChiMinh City in this year", "sql":"SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'HoChiMinh' AND 'year'== 2021 AND 'rooms' == 3 ;"},
+    {"text": "I want to display the avg price in DaNang city with 2 rooms house ", "sql": "SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'DaNang' AND 'rooms' == 2 ;"},
+    {"text": "Show the highest price of 3 rooms house in DongDa district, HaNoi city in 2021", "sql":"SELECT max(price) FROM 'house' WHERE 'city' LIKE 'HaNoi' AND 'district' LIKE 'DongDa' AND 'rooms' == 3 AND 'year' == 2021 ;"},
+    {"text": "Display maximum house's price with 1 rooms in CanTho city, in quarter 4, 2019", "sql": "SELECT max(price) FROM 'house' WHERE 'city' LIKE 'CanTho' AND 'quarter' == 4 AND 'year' == 2019 AND 'rooms' == 1 ;"},
+    {"text": "Tell the avg price housing in HaTinh city, 2021", "sql": "SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'HaTinh' AND 'year' == 2021 ;"},
+    {"text": "show the avg house's price in BinhDuong, 2020 with 4 rooms ", "sql": "SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'BinhDuong' AND 'year' == 2020 AND 'rooms' == 4 ;"},
+    {"text": "Display the avg apartment's price in HaNoi city, 2021", "sql":"SELECT 'avg(price)' FROM 'house' WHERE 'type' LIKE 'apartment' AND city' LIKE 'HaNoi';"},
+    {"text": "Show the highest flat's price  in HoChiMinh city", "sql": "SELECT 'max(price)' FROM 'house' WHERE type = 'apartment' AND 'city' LIKE 'HoChiMinh';"},
+    {"text": "Show the highest apartment's price  in DaNang city", "sql": "SELECT 'max(price)' FROM 'house' WHERE type = 'apartment' AND 'city' LIKE 'DaNang';"},
+    {"text": "Show the highest landhouse's price  in HoChiMinh city", "sql": "SELECT 'max(price)' FROM 'house' WHERE type = 'landhouse' AND 'city' LIKE 'HoChiMinh';"},
+    {"text": "show the avg land house's price in BinhDuong, 2020 with 4 rooms ", "sql":"SELECT avg(price) FROM 'house' WHERE 'city' LIKE 'BinhDuong' AND 'rooms' == 4 AND 'type'== 'landhouse' AND 'year' = 2020;"}
+]
+
+
+
